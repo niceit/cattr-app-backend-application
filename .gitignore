@@ -59,3 +59,8 @@ bootstrap/cache/*
 !.yarn/versions
 
 composer.phar
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault

@@ -1,0 +1,10 @@
+name: cattr-app-backend-application
+recipe: lamp
+config:
+  php: 8.1
+  webroot: ./public
+  database: mariadb
+  xdebug: true
+proxy:
+  appserver:
+    - cattr-app-backend.tranit.local

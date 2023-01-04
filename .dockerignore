@@ -53,3 +53,8 @@ bootstrap/cache/*
 
 public/storage
 Dockerfile
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
